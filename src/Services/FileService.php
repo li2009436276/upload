@@ -39,7 +39,7 @@ class FileService
                 if ($res) {
 
                     $fileArray['path'] = $saveName;
-                    $fileArray['url'] =  Storage::url($saveName);
+                    $fileArray['src'] =  Storage::url($saveName);
                     $fileArray['name'] = str_replace('.' . $value->getClientOriginalExtension(), '', $value->getClientOriginalName());
                     $fileArray['size'] = $value->getClientSize();
                     $fileArray['ext'] = $value->getClientOriginalExtension();

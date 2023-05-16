@@ -30,7 +30,7 @@ class FileController
 
         if ($res) {
 
-            return new BaseResource($res);
+            return new BaseResource(count($res) == 1 ? $res[0] : $res);
         }
 
         return new ErrorResource([]);
