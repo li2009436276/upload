@@ -1,6 +1,6 @@
 <?php
 
-namespace Admin\Providers;
+namespace Www\Upload\Providers;
 
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
