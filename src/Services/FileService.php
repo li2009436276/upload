@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Www\Upload\StrService;
+namespace Www\Upload\Services;
 
 use Illuminate\Support\Facades\Storage;
 

@@ -7,7 +7,7 @@ namespace Www\Upload\Controllers;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\BaseResource;
 use App\Http\Resources\ErrorResource;
-use Curl\StrService\FileService;
+use Www\Upload\Services\FileService;
 use Illuminate\Http\Request;
 
 class FileController
