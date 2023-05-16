@@ -1,6 +1,6 @@
 {
     "name": "www/upload",
-    "description": "鏂囦欢涓婁紶",
+    "description": "文件上传",
     "type": "project",
     "license": "MIT",
     "autoload": {
@@ -10,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "liwenqi",
+            "name": "li2009436276",
             "email": "571816409@qq.com"
         }
     ],
