@@ -1,0 +1,27 @@
+{
+    "name": "www/upload",
+    "description": "鏂囦欢涓婁紶",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Www\\Upload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liwenqi",
+            "email": "571816409@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Www\\Upload\\Providers\\AppServiceProvider",
+                "Www\\Upload\\Providers\\RouteServiceProvider"
+            ]
+        }
+    }
+}
