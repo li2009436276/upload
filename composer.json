@@ -10,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "li2009436276",
+            "name": "lwq",
             "email": "571816409@qq.com"
         }
     ],
@@ -18,10 +18,7 @@
     "require": {},
     "extra": {
         "laravel": {
-            "providers": [
-                "Www\\Upload\\Providers\\AppServiceProvider",
-                "Www\\Upload\\Providers\\RouteServiceProvider"
-            ]
+            "providers": ["Www\\Upload\\Providers\\AppServiceProvider","Www\\Upload\\Providers\\RouteServiceProvider"]
         }
     }
 }
